@@ -1,0 +1,110 @@
+* {
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #23252C;
+}
+
+.App {
+    width: 317px;
+    height: 780px;
+    margin: 50px auto;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.Info {
+    width: 100%;
+    min-height: 161px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.InfoImg {
+    width: 100%;
+}
+
+.InfoName {
+    margin: 20px 0 0 0;
+    color: #2B283A;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.InfoJob {
+    color: #F47D27;
+    font-size: 12.8px;
+    text-align: center;
+    margin-top: 6px;
+}
+
+.InfoWebSite {
+    font-size: 10.24px;
+    color:  #4A4E74;
+    line-height: 150%;
+    text-align: center;
+    margin-top: 8.81px;
+}
+
+.InfoButton {
+    width: calc(100% - 70px);
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    background-color: #fff;
+    color: #374151;
+    font-size: 14px;
+    padding: 12.2px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9.6px;
+    margin-top: 17px;
+}
+
+.InfoButton > img {
+    width: 16px;
+    height: 16px;
+}
+
+.About, .Interests {
+    margin-top: 25px;
+    padding: 0 35px;
+}
+
+.AboutTitle, .InterestsTitle {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    color: #2B283A;
+    margin: 0px;
+}
+
+.AboutText, .InterestsText {
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #4A4E74;
+    margin: 0px;
+}
+
+.Footer {
+    width: 100%;
+    background-color: #D5D4D8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 31px;
+    padding: 19.5px 0;
+    border-radius: 0 0 10px 10px;
+    gap: 24px;
+}
+
+.FooterLinkImg {
+    width: 25px;
+    height: 25px;
+}
